@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+    color: #6E6E6E;
+    font-size:15px;
+	background: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-family: 'Oswald', sans-serif;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-top: 30px;
+	color: #4B5C5C;
+}
+h2 {
+	margin: 30px 0;
+}
+a{
+    color: #0DC0C0;
+}
+.navbar-nav>li>a {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+.navbar-inverse .navbar-brand img {
+	width: 150px;
+}
+#header-top{
+    background: rgba(0, 39, 53, 0.55);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+#header-top .social{
+margin: 5px 0;
+}
+#header-top  .social a {
+font-size: 18px;
+color: #0090C5;
+}
+#header-top .text p{
+color: #0090C5;
+padding: 10px 0 0;
+}
+#head {
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+	color: rgb(13, 192, 192);
+	font-weight: 300;
+	position: relative; 
+	background-position-x: center;
+}
+header#head::after {
+content: '';
+background: rgba(3, 41, 55, 0.72);
+width: 100%;
+height: inherit;
+position: absolute;
+top: 0;
+left:0px;
+}
+.head-box{
+    background: #00BBFF;
+    padding: 35px 0;
+}
+.head-box h2{
+    color: #fff;
+    font-size: 23px;
+}
+.head-box p{
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.section-heading h2{
+font-size:32px;
+text-align:center;
+color: #1E3434;
+}
+.box-2 img {
+display: block;
+max-width: 100%;
+margin: 0 auto;
+}
+.navbar-inverse {
+	background: transparent; 
+    z-index: 100;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+	border-top: #0dc0c0 solid 2px;
+	position: absolute;
+	top: 30px;
+}
+.navbar-inverse {
+	border: none;
+}
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > .open ul > a {
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	background: none;
+	color: blue;
+}
+img {
+	max-width: 100%;
+}
+img.pull-right {
+	margin-left: 10px;
+}
+img.pull-left {
+	margin-right: 10px;
+}
+.featured-box {
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.featured-box .text {
+	padding-left: 80px;
+}
+.featured-box h3 {
+	margin: 0 0 5px 0;
+}
+.featured-box i {
+	position: absolute;
+	display: inline-block;
+	color: blue; 
+	padding: 0px;
+	border-radius: 0;
+	width: 24px;
+	height: 24px;
+	margin: 0px;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	background: white;
+	border: 1px solid #0BF;
+	border-radius: 50%;
+}
+.social a {
+	font-size: 32px;
+	margin: 0 10px;
+	color: #8c8c8c;
+}
+.team-socials {
+	margin: 15px 0;
+	display: block;
+	text-align: center;
+}
+.team-member h4 {
+	font-size: 19px;
+	line-height: 32px;
+	padding: 10px 0 0;
+	text-align: center;
+	margin: 0px;
+	color: black;
+}
+.team-member .pos {
+	display: block;
+	margin: 0;
+	text-align: center;
+	color: gray;
+}
+#head.secondary {
+	height: 300px;
+	min-height: 300px;
+	padding-top: 0px;
+	background-size: cover;
+	text-align: left;
+}
